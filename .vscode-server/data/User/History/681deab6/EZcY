@@ -1,0 +1,38 @@
+INSERT INTO member (member_id,member_name, email, phone_number)
+VALUES ('101', 'Samuel', 'samuel@email.com', '804-200-1000');
+
+INSERT INTO member (member_name, email, phone_number)
+VALUES ('Mary', 'mary@email.com', '804-220-1003');
+
+INSERT INTO member (member_name, email, phone_number)
+VALUES ('Keith', 'keith@email.com', '804-220-1530');
+
+INSERT INTO member (member_name, email, phone_number)
+VALUES ('Alberto', 'alberto@email.com', '804-300-1400');
+
+INSERT INTO payment(payment_id, amount, payment_method, member_id)
+VALUES ('2000', 30.00, 'Visa', '101')
+
+INSERT INTO payment(amount, payment_method, member_id)
+VALUES ('30.00', 'Visa', '102')
+
+INSERT INTO payment(amount, payment_method, member_id)
+VALUES ('30.00', 'Visa', '103')
+
+INSERT INTO payment(amount, payment_method, member_id)
+VALUES ('30.00', 'Visa', '104')
+
+INSERT INTO staff (staff_name, staff_role)
+VALUES ('Sam', 'Trainer')
++
+INSERT INTO staff (staff_name, staff_role)
+VALUES ('Will', 'Janitor')
+
+INSERT INTO class(class_name, capacity, class_date, class_type)
+VALUE('Zumba', '30', '2024-04-04','Cardio')
+
+INSERT INTO inventory(quantity_available)
+VALUES(1)
+
+INSERT INTO inventory(quantity_available)
+VALUES(3)

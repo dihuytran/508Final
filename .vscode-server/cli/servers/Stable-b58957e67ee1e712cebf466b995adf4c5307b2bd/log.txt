@@ -1,0 +1,25 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-d8a0e426-dd24-4233-92cb-b4fc20cf9e08
+Extension host agent listening on /tmp/code-d8a0e426-dd24-4233-92cb-b4fc20cf9e08
+
+[17:10:55] 
+
+
+
+
+[17:10:55] Error: Unable to retrieve mac address (unexpected format)
+    at D (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:93:3515)
+    at g (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:101:6636)
+    at async /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:101:6520
+[17:10:55] Extension host agent started.
+[17:10:55] [<unknown>][8f1a3fa5][ManagementConnection] Unknown reconnection token (never seen).
+[17:10:55] [<unknown>][4930ac75][ExtensionHostConnection] Unknown reconnection token (never seen).
+[17:11:31] [<unknown>][4f47b461][ExtensionHostConnection] New connection established.
+[17:11:31] [<unknown>][4f47b461][ExtensionHostConnection] <25241> Launched Extension Host Process.
+[17:11:31] [<unknown>][be97c125][ManagementConnection] New connection established.

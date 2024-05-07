@@ -1,0 +1,13 @@
+2024-04-27 21:19:36.498 [info] Extension host with pid 121328 started
+2024-04-27 21:19:36.509 [info] Lock '/home/24SP/24SP_dominguezjs/.vscode-server/data/User/workspaceStorage/38ee5042f4ed346528e7cc520126a2e3/vscode.lock': Lock acquired.
+2024-04-27 21:19:36.811 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-27 21:19:36.812 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-04-27 21:19:37.116 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-27 21:19:37.237 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-27 21:19:37.237 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-27 21:19:37.481 [info] Eager extensions activated
+2024-04-27 21:19:37.481 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 21:19:37.482 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 21:25:14.866 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-04-27 21:25:14.866 [info] Lock '/home/24SP/24SP_dominguezjs/.vscode-server/data/User/workspaceStorage/38ee5042f4ed346528e7cc520126a2e3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-27 21:25:14.879 [info] Extension host with pid 121328 exiting with code 0

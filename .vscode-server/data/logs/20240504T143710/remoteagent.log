@@ -1,0 +1,323 @@
+2024-05-04 14:37:10.680 [info] 
+
+
+
+
+2024-05-04 14:37:10.680 [error] Error: Unable to retrieve mac address (unexpected format)
+    at D (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:93:3515)
+    at g (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:101:6636)
+    at async /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:101:6520
+2024-05-04 14:37:10.690 [info] Extension host agent started.
+2024-05-04 14:37:10.801 [info] [<unknown>][1f750d82][ManagementConnection] New connection established.
+2024-05-04 14:37:10.803 [info] [<unknown>][923f6008][ExtensionHostConnection] New connection established.
+2024-05-04 14:37:10.887 [info] [<unknown>][923f6008][ExtensionHostConnection] <208871> Launched Extension Host Process.
+2024-05-04 14:37:12.772 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 14:42:10.690 [info] New EH opened, aborting shutdown
+2024-05-04 15:21:26.281 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:22:03.449 [info] [<unknown>][923f6008][ExtensionHostConnection] The client has reconnected.
+2024-05-04 15:27:33.446 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:28:31.612 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:28:32.647 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:28:32.648 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:28:32.648 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:28:32.648 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:29:03.014 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:29:33.114 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:30:10.849 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:30:36.080 [info] [<unknown>][3d8b32b7][ExtensionHostConnection] New connection established.
+2024-05-04 15:30:36.084 [info] [<unknown>][f3fc7ad2][ManagementConnection] New connection established.
+2024-05-04 15:30:36.145 [info] [<unknown>][3d8b32b7][ExtensionHostConnection] <233876> Launched Extension Host Process.
+2024-05-04 15:30:58.438 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:31:25.282 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:31:25.298 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:31:25.299 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:31:25.300 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:31:25.446 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-05-04 15:31:26.482 [info] [<unknown>][f3fc7ad2][ManagementConnection] The client has reconnected.
+2024-05-04 15:31:33.335 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:33:30.970 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:33:37.963 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:33:37.973 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:33:37.988 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:33:38.074 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 15:35:00.212 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:37:46.204 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:38:19.531 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:39:40.137 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 15:43:53.882 [info] [<unknown>][923f6008][ExtensionHostConnection] <208871> Extension Host Process exited with code: 0, signal: null.
+2024-05-04 16:07:48.379 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:08:38.617 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:08:53.730 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:09:20.014 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:11:10.219 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:22:31.011 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:23:24.239 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:23:31.317 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:24:05.012 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:26:16.175 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:27:05.980 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:28:08.429 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:28:14.600 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:29:08.010 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:29:27.744 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:30:37.644 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:30:52.527 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:33:54.427 [info] [<unknown>][d3478bcd][ExtensionHostConnection] New connection established.
+2024-05-04 16:33:54.431 [info] [<unknown>][a7e292ce][ManagementConnection] New connection established.
+2024-05-04 16:33:54.439 [info] [<unknown>][d3478bcd][ExtensionHostConnection] <354998> Launched Extension Host Process.
+2024-05-04 16:33:56.531 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 16:34:10.359 [info] [<unknown>][8e53e72c][ManagementConnection] New connection established.
+2024-05-04 16:34:10.361 [info] [<unknown>][95c7a5c7][ExtensionHostConnection] New connection established.
+2024-05-04 16:34:10.367 [info] [<unknown>][95c7a5c7][ExtensionHostConnection] <355155> Launched Extension Host Process.
+2024-05-04 16:39:10.500 [info] [<unknown>][3d8b32b7][ExtensionHostConnection] <233876> Extension Host Process exited with code: 0, signal: null.
+2024-05-04 16:39:10.531 [info] [<unknown>][d3478bcd][ExtensionHostConnection] <354998> Extension Host Process exited with code: 0, signal: null.
+2024-05-04 16:43:52.911 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:44:14.421 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:45:33.313 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 16:45:35.023 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 16:45:35.087 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 16:45:37.234 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-04 16:45:49.540 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:46:04.702 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:46:56.941 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:46:57.395 [info] [<unknown>][432e0c63][ManagementConnection] New connection established.
+2024-05-04 16:46:57.400 [info] [<unknown>][872dab73][ExtensionHostConnection] New connection established.
+2024-05-04 16:46:57.592 [info] [<unknown>][872dab73][ExtensionHostConnection] <360559> Launched Extension Host Process.
+2024-05-04 16:47:04.030 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-04 16:48:32.284 [warning] No ptyHost heartbeat after 6 seconds

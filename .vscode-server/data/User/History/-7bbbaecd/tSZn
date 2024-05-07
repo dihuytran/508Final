@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "\.(jpg|jpeg|png|gif|mp4)$">
+    Allow from all
+</FilesMatch>

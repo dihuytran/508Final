@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:41162
+[2024-05-05 23:18:40] info Disposed of connection to running server.
+looking for token c4b9cf49-cec9-46c0-a0bb-e4ca637b54e6, got Some("c4b9cf49-cec9-46c0-a0bb-e4ca637b54e6")
+[2024-05-05 23:18:40] info Checking /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/log.txt and /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/pid.txt for a running server...
+[2024-05-05 23:18:40] info Found running server (pid=25049)

@@ -1,0 +1,66 @@
+CREATE TABLE member (
+    member_id int AUTO_INCREMENT,
+    member_name varchar(30) NOT NULL,
+    email varchar(30) NOT NULL UNIQUE,
+    phone_number varchar(25) NOT NULL,
+    role ENUM('guest', 'staff', 'admin') NOT NULL DEFAULT 'guest',
+    password varchar(255) NOT NULL, 
+    PRIMARY KEY (member_id)
+);
+
+CREATE TABLE payment (
+    payment_id int AUTO_INCREMENT,
+    amount decimal(10,2) NOT NULL,
+    payment_date TIMESTAMP NOT NULL DEFAULT (UTC_TIMESTAMP),
+    payment_method varchar(20) NOT NULL,
+    member_id int,
+    PRIMARY KEY (payment_id),
+    FOREIGN KEY(member_id) REFERENCES member(member_id)
+)
+
+CREATE TABLE class (
+    class_id int AUTO_INCREMENT, 
+    class_name varchar(20) NOT NULL,
+    capacity varchar(10) NOT NULL,
+    class_date DATE NOT NULL,
+    class_time TIMESTAMP NOT NULL DEFAULT (UTC_TIMESTAMP),
+    class_type varchar(30),
+    PRIMARY KEY (class_id)
+)
+
+CREATE TABLE class_member (
+    class_member_id int AUTO_INCREMENT,
+    member_id int,
+    class_id int,
+    PRIMARY KEY (class_member_id),
+    FOREIGN KEY (member_id) REFERENCES member(member_id),
+    FOREIGN KEY (class_id) REFERENCES class(class_id)
+)
+
+CREATE TABLE admin (
+    staff_id int AUTO_INCREMENT,
+    staff_name varchar(30) NOT NULL,
+    email varchar(255) NOT NULL UNIQUE,
+    phone_number varchar(25) NOT NULL,
+    password varchar(255) NOT NULL,
+    staff_role ENUM('staff', 'admin') NOT NULL DEFAULT 'staff',
+    PRIMARY KEY (staff_id)
+);
+
+
+CREATE TABLE equipment (
+    equipment_id int AUTO_INCREMENT,
+    inventory_id int NOT NULL,
+    renter_name int NOT NULL,
+    type varchar(225) DEFAULT 'Unknown',
+    PRIMARY KEY (equipment_id),
+    FOREIGN KEY (inventory_id) REFERENCES inventory(inventory_id),
+    FOREIGN KEY (renter_name) REFERENCES member(member_id)
+)
+
+CREATE TABLE inventory (
+    inventory_id int AUTO_INCREMENT,
+    quantity_available int NOT NULL,
+    PRIMARY KEY (inventory_id)
+)
+

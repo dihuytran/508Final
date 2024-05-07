@@ -1,0 +1,42 @@
+2024-05-02 15:38:31.023 [info] 
+
+
+
+
+2024-05-02 15:38:31.023 [error] Error: Unable to retrieve mac address (unexpected format)
+    at D (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:93:3518)
+    at $ (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6638)
+    at async /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6522
+2024-05-02 15:38:31.036 [info] Extension host agent started.
+2024-05-02 15:38:31.129 [info] [<unknown>][0edcbb88][ExtensionHostConnection] New connection established.
+2024-05-02 15:38:31.152 [info] [<unknown>][6fd12080][ManagementConnection] New connection established.
+2024-05-02 15:38:31.230 [info] [<unknown>][0edcbb88][ExtensionHostConnection] <558174> Launched Extension Host Process.
+2024-05-02 15:39:03.805 [info] [<unknown>][163bb635][ManagementConnection] New connection established.
+2024-05-02 15:39:03.806 [info] [<unknown>][d584db10][ExtensionHostConnection] New connection established.
+2024-05-02 15:39:03.810 [info] [<unknown>][d584db10][ExtensionHostConnection] <558408> Launched Extension Host Process.
+2024-05-02 15:39:05.866 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-02 15:39:23.517 [info] [<unknown>][712ebe8c][ManagementConnection] New connection established.
+2024-05-02 15:39:23.547 [info] [<unknown>][2627e3bb][ExtensionHostConnection] New connection established.
+2024-05-02 15:39:23.555 [info] [<unknown>][2627e3bb][ExtensionHostConnection] <558619> Launched Extension Host Process.
+2024-05-02 15:43:31.037 [info] New EH opened, aborting shutdown
+2024-05-02 15:43:31.038 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-05-02 15:44:03.867 [info] [<unknown>][0edcbb88][ExtensionHostConnection] <558174> Extension Host Process exited with code: 0, signal: null.
+2024-05-02 15:44:23.713 [info] [<unknown>][d584db10][ExtensionHostConnection] <558408> Extension Host Process exited with code: 0, signal: null.
+2024-05-02 18:41:17.675 [info] [<unknown>][2627e3bb][ExtensionHostConnection] <558619> Extension Host Process exited with code: 0, signal: null.
+2024-05-02 18:41:17.686 [info] Last EH closed, waiting before shutting down
+2024-05-02 18:46:17.686 [info] Last EH closed, shutting down

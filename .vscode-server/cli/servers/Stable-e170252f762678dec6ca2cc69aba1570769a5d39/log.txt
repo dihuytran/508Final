@@ -1,0 +1,58 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-71eaf390-7239-42f7-b122-f9e676b0c752
+Extension host agent listening on /tmp/code-71eaf390-7239-42f7-b122-f9e676b0c752
+
+[15:38:31] 
+
+
+
+
+[15:38:31] Error: Unable to retrieve mac address (unexpected format)
+    at D (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:93:3518)
+    at $ (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6638)
+    at async /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6522
+[15:38:31] Extension host agent started.
+[15:38:31] [<unknown>][0edcbb88][ExtensionHostConnection] New connection established.
+[15:38:31] [<unknown>][6fd12080][ManagementConnection] New connection established.
+[15:38:31] [<unknown>][0edcbb88][ExtensionHostConnection] <558174> Launched Extension Host Process.
+[15:39:03] [<unknown>][163bb635][ManagementConnection] New connection established.
+[15:39:03] [<unknown>][d584db10][ExtensionHostConnection] New connection established.
+[15:39:03] [<unknown>][d584db10][ExtensionHostConnection] <558408> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:39:05] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:39:23] [<unknown>][712ebe8c][ManagementConnection] New connection established.
+[15:39:23] [<unknown>][2627e3bb][ExtensionHostConnection] New connection established.
+[15:39:23] [<unknown>][2627e3bb][ExtensionHostConnection] <558619> Launched Extension Host Process.

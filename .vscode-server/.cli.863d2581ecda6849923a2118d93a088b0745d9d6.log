@@ -1,0 +1,4 @@
+Listening on 127.0.0.1:44226
+[2024-04-05 20:57:05] info Disposed of connection to running server.
+looking for token de9b8eea-6bd5-429b-aa83-1f31223b1bad, got Some("de9b8eea-6bd5-429b-aa83-1f31223b1bad")
+[2024-04-05 22:06:27] info Disposed of connection to running server.

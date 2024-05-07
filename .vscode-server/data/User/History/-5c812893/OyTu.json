@@ -1,0 +1,6 @@
+{
+    "remote.SSH.remotePlatform": {
+        "cmsc508.com": "linux"
+    },
+    "workbench.colorTheme": "Activate UMBRA protocol"
+}

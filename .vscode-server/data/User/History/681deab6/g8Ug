@@ -1,0 +1,5 @@
+INSERT INTO member (member_id,member_name, email, phone_number)
+VALUES ('101', 'Samuel', 'Samuel@email.com', '804-200-1000');
+
+INSERT INTO payment(payment_id, amount, payment_date, payment_method, member_id)
+VALUES ('2000', 30.00, SYSDATETIME(), 'Visa', '101')

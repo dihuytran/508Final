@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteCond %{HTTP_REFERER} !^http://([^.]+\.)?domain\.com/ [NC]
+ RewriteCond %{HTTP_USER_AGENT} !(googlebot-image|msnbot|psbot|yahoo-mmcrawler) [NC]
+ RewriteRule (^.*\.(bmp|gif|jpe?g|png)$) /watermark.php?src=$1 [L]
+</IfModule>

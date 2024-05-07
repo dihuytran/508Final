@@ -1,0 +1,15 @@
+2024-05-04 18:36:52.235 [info] Extension host with pid 43302 started
+2024-05-04 18:36:52.249 [info] Lock '/home/24SP/24SP_dominguezjs/.vscode-server/data/User/workspaceStorage/38ee5042f4ed346528e7cc520126a2e3/vscode.lock': Lock acquired.
+2024-05-04 18:36:52.441 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-04 18:36:52.442 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-05-04 18:36:52.710 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-04 18:36:52.710 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-05-04 18:36:53.104 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-04 18:36:53.105 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-04 18:36:53.434 [info] Eager extensions activated
+2024-05-04 18:36:53.434 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-04 18:36:53.434 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-04 18:36:53.435 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-05-05 01:36:14.526 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-05-05 01:36:14.527 [info] Lock '/home/24SP/24SP_dominguezjs/.vscode-server/data/User/workspaceStorage/38ee5042f4ed346528e7cc520126a2e3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-05-05 01:36:14.540 [info] Extension host with pid 43302 exiting with code 0

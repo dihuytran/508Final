@@ -1,0 +1,13 @@
+2024-04-28 14:18:48.829 [info] 
+
+
+
+
+2024-04-28 14:18:48.829 [error] Error: Unable to retrieve mac address (unexpected format)
+    at D (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:93:3518)
+    at $ (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6638)
+    at async /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6522
+2024-04-28 14:18:48.840 [info] Extension host agent started.
+2024-04-28 14:18:48.968 [error] [<unknown>][6bc05dc4][ManagementConnection] Unknown reconnection token (never seen).
+2024-04-28 14:18:48.969 [error] [<unknown>][85f65cd5][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-04-28 14:23:48.841 [info] Last EH closed, shutting down

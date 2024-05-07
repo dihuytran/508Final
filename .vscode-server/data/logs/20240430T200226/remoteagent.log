@@ -1,0 +1,24 @@
+2024-04-30 20:02:26.640 [info] 
+
+
+
+
+2024-04-30 20:02:26.640 [error] Error: Unable to retrieve mac address (unexpected format)
+    at D (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:93:3518)
+    at $ (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6638)
+    at async /home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:101:6522
+2024-04-30 20:02:26.651 [info] Extension host agent started.
+2024-04-30 20:02:26.740 [info] [<unknown>][6a407e9a][ManagementConnection] New connection established.
+2024-04-30 20:02:26.767 [info] [<unknown>][62ef751a][ExtensionHostConnection] New connection established.
+2024-04-30 20:02:26.851 [info] [<unknown>][62ef751a][ExtensionHostConnection] <278654> Launched Extension Host Process.
+2024-04-30 20:02:41.402 [info] [<unknown>][08d0d6d0][ManagementConnection] New connection established.
+2024-04-30 20:02:41.431 [info] [<unknown>][1a9bcd34][ExtensionHostConnection] New connection established.
+2024-04-30 20:02:41.436 [info] [<unknown>][1a9bcd34][ExtensionHostConnection] <278843> Launched Extension Host Process.
+2024-04-30 20:07:26.653 [info] New EH opened, aborting shutdown
+2024-04-30 20:07:26.653 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/24SP/24SP_dominguezjs/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-04-30 20:07:41.500 [info] [<unknown>][62ef751a][ExtensionHostConnection] <278654> Extension Host Process exited with code: 0, signal: null.
+2024-04-30 23:58:27.399 [info] [<unknown>][1a9bcd34][ExtensionHostConnection] <278843> Extension Host Process exited with code: 0, signal: null.
+2024-04-30 23:58:27.399 [info] Last EH closed, waiting before shutting down
+2024-05-01 00:03:27.400 [info] Last EH closed, shutting down
